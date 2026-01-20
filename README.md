@@ -43,8 +43,7 @@ Ensure you have the following installed:
 
 ```bash
 cd ~/Desktop
-git clone [https://github.com/NurtureHer/Website-.git](https://github.com/NurtureHer/Website-.git)
-
+git clone "https://github.com/NurtureHer/Website-.git"
 ```
 
 *Note: You may be asked to log in to GitHub.*
