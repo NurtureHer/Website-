@@ -6,13 +6,14 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
           
-          {/* Left Column: The Brand Zone (Text Only) */}
-          <div className="md:col-span-4 flex flex-col items-center md:items-start md:border-r md:border-brand-mauve/20 h-full">
-            {/* Increased text size to fill the visual space left by the logo */}
-            <h2 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-6 tracking-tight">
+          {/* Left Column: The Brand Zone */}
+          {/* UPDATED: Removed 'md:items-start' so it stays centered on desktop too */}
+          <div className="md:col-span-4 flex flex-col items-center md:border-r md:border-brand-mauve/20 h-full">
+            
+            <h2 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-6 tracking-tight text-center">
               About Us
             </h2>
-            {/* The accent line keeps it looking designed, not just empty */}
+            
             <div className="h-1.5 w-16 bg-brand-mauve/80 rounded-full"></div>
           </div>
 
