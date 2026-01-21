@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-// CHANGED: Importing 'Logo Mark.png' instead of Main Logo
 import logo from '../../assets/Logo Mark.png'; 
 
 const Navbar = () => {
@@ -17,7 +16,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
-    { name: 'Mission', href: '#mission' },
+    { name: 'Vision/Mission', href: '#mission' },
     { name: 'Objectives', href: '#objectives' },
     { name: 'Contact', href: '#contact' },
   ];
