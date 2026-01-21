@@ -20,13 +20,13 @@ const About = () => {
           {/* Right Column: The Content Zone */}
           <div className="md:col-span-8">
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-serif mb-6">
-              Nurture Her Girls Support Initiative is a non-governmental organization that supports and empowers teenage girls.
+              Nurture Her Girl Support Initiative is a non-governmental organization that supports and empowers teenage girls in Nigeria.
             </p>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-serif mb-6">
-              We provide culturally appropriate health education, life skills, and leadership training. We bridge the gap between adolescence and adulthood by fostering career awareness and practical life skills.
+              We provide culturally appropriate reproductive health education, life skills, and leadership training.
             </p>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed font-serif mb-6">
-              Our goal is to prepare girls not just to participate in society, but to lead it.
+              We create safe and supportive spaces where girls can learn and grow into healthy, strong, and empowered women.
             </p>
           </div>
           
