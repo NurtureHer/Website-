@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../../assets/Main Logo.png'; // Update path if needed
+// CHANGED: Importing 'Logo Mark.png' instead of Main Logo
+import logo from '../../assets/Logo Mark.png'; 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  // This effect adds a shadow when you scroll down
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
@@ -14,7 +14,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Define links with IDs matching your section components
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -30,9 +29,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           
-          {/* Logo */}
+          {/* Logo Section */}
           <a href="#home" className="flex-shrink-0 flex items-center">
-            <img className="h-16 w-auto object-contain" src={logo} alt="Nurture Her" />
+            {/* The Logo Mark is usually taller/squarer, so h-12 to h-14 looks elegant */}
+            <img className="h-14 w-auto object-contain" src={logo} alt="Nurture Her Mark" />
           </a>
 
           {/* Desktop Menu */}
