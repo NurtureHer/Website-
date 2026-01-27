@@ -62,7 +62,7 @@ const Contact = () => {
 
             {/* LinkedIn Card */}
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/company/nurture-her-girl-support-initiative/about/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center p-6 bg-white border border-gray-100 shadow-sm rounded-xl hover:shadow-md hover:border-brand-mauve/30 transition-all duration-300 group"
