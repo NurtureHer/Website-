@@ -79,10 +79,6 @@ You will see a Local URL (usually `http://localhost:5173`). Click it to view the
 
 ## How to Deploy Updates
 
-We use **GitHub Pages** for deployment.
-**Live Site:** [https://NurtureHer.github.io/Website-/](https://NurtureHer.github.io/Website-/)
-
-**To update the live website:**
 
 1. **Save** your changes in VS Code.
 2. **Commit & Push** your code to GitHub:
@@ -90,16 +86,11 @@ We use **GitHub Pages** for deployment.
 ```bash
 git add .
 git commit -m "Describe your changes here"
-git push origin main
+git push 
 
 ```
 
-3. **Run the Deploy Script:**
 
-```bash
-npm run deploy
-
-```
 
 *This will build the site and update the live link automatically. Changes typically appear within 2-3 minutes.*
 
