@@ -23,13 +23,6 @@ const departments = [
     }]
   },
   {
-    title: "Graphic Design",
-    members: [
-      { name: "Amina Muhammad ", role: "Graphic Designer", image: placeholder, bio: "Crafting our visual identity.", linkedin: "#" },
-      { name: "Fauziyya Abdullahi Ahmed", role: "Graphic Designer", image: imgfauzie, bio: "Fauziyya Abdullahi Ahmed is a Computer Science professional specializing in Data Science and Machine Learning. She is passionate about leveraging technology and analytical frameworks to drive meaningful social innovation and community-focused initiatives. By combining technical precision with creative problem-solving, she helps design engaging, accessible resources for Nurture Her. Fauziyya is committed to using her expertise to create digital spaces that empower girls to build confidence, access new opportunities, and reach their full potential.", linkedin: "#" }
-    ]
-  },
-  {
     title: "Social Media",
     members: [{ 
       name: "Zainab A Ahmed", 
@@ -40,6 +33,14 @@ const departments = [
       linkedin: "#" 
     }]
   },
+  {
+    title: "Graphic Design",
+    members: [
+      { name: "Amina Muhammad ", role: "Graphic Designer", image: placeholder, bio: "Crafting our visual identity.", linkedin: "#" },
+      { name: "Fauziyya Abdullahi Ahmed", role: "Graphic Designer", image: imgfauzie, bio: "Fauziyya Abdullahi Ahmed is a Computer Science professional specializing in Data Science and Machine Learning. She is passionate about leveraging technology and analytical frameworks to drive meaningful social innovation and community-focused initiatives. By combining technical precision with creative problem-solving, she helps design engaging, accessible resources for Nurture Her. Fauziyya is committed to using her expertise to create digital spaces that empower girls to build confidence, access new opportunities, and reach their full potential.", linkedin: "#" }
+    ]
+  },
+  
   {
     title: "Program Planning",
     members: [
@@ -152,13 +153,14 @@ const Team = () => {
     <div className="pt-32 pb-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-20">
-          <h1 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-4 uppercase tracking-widest">Our Team</h1>
+          <h1 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-4  tracking-widest">Our Team</h1>
+          <div className="h-1.5 w-16 bg-brand-mauve/80 rounded-full mx-auto mb-4"></div>
           <p className="text-gray-600 font-sans italic">The hearts and minds behind the initiative.</p>
         </div>
 
         {departments.map((dept, idx) => (
           <div key={idx} className="mb-20">
-            <h2 className="text-2xl font-serif text-brand-mauve mb-10 border-b border-brand-mauve/20 pb-2 inline-block uppercase tracking-wide">
+            <h2 className="text-2xl font-serif text-brand-mauve mb-10 border-b border-brand-mauve/20 pb-2 inline-block  tracking-wide">
               {dept.title}
             </h2>
             {/* Added 'items-stretch' to make cards equal height in a row */}

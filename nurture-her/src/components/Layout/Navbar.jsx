@@ -43,9 +43,6 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/#about' },
-    { name: 'Vision/Mission', href: '/#mission' },
-    { name: 'Objectives', href: '/#objectives' }, // RESTORED
     { name: 'Founder', href: '/founder' }, 
     { name: 'Team', href: '/team' },
     { name: 'Contact', href: '/#contact' },

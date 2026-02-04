@@ -5,12 +5,15 @@ const Founder = () => {
   return (
     <div className="pt-32 pb-24 bg-white">
       
-      {/* --- PAGE HEADER --- */}
-      <div className="max-w-6xl mx-auto px-6 mb-12">
-        <h1 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-6 tracking-tight">
-          The Founder
-        </h1>
-        <div className="h-1.5 w-16 bg-brand-mauve/80 rounded-full"></div>
+      {/* --- PAGE HEADER (Dash centered under text) --- */}
+      <div className="max-w-6xl mx-auto px-6 mb-12 flex flex-col items-center md:items-start">
+        <div className="inline-block text-center md:text-left">
+          <h1 className="text-4xl md:text-5xl font-serif text-brand-mauve mb-4 tracking-tight">
+            The Founder
+          </h1>
+          <div className="h-1.5 w-16 bg-brand-mauve/80 rounded-full mx-auto md:ml-12 lg:ml-14"></div>
+          {/* Note: Adjusting ml (margin-left) to visually center under the words 'The Founder' on desktop */}
+        </div>
       </div>
 
       {/* --- SECTION 1: THE BIO (SPLIT LAYOUT) --- */}
@@ -50,9 +53,9 @@ const Founder = () => {
       {/* --- SECTION 2: THE STORY (INSET FEATURE STYLE) --- */}
       <section className="pb-24">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="bg-gray-50/50 border-l-8 border-brand-mauve p-8 md:p-16 rounded-r-3xl">
+          <div className="bg-gray-50/50 border-l-8 border-brand-mauve p-8 md:p-16 rounded-r-3xl shadow-sm">
             <h2 className="text-3xl font-serif text-brand-mauve mb-10">
-              The Story Behind Nurture Her Girl Support Initiative
+              The Story Behind Nurture Her 
             </h2>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 text-lg text-gray-700 leading-relaxed font-serif">
@@ -75,7 +78,6 @@ const Founder = () => {
               </div>
             </div>
 
-            {/* Final closing paragraph spanning full width of the inset */}
             <div className="mt-12 pt-8 border-t border-gray-200">
               <p className="text-xl md:text-2xl text-brand-mauve font-serif italic text-center max-w-4xl mx-auto">
                 At its core, Nurture Her exists because Halima believes that when girls are nurtured with knowledge, compassion, and opportunity, they grow into confident women who can make informed decisions about their lives and their communities. This belief continues to shape the vision, values, and work of Nurture Her every day.
