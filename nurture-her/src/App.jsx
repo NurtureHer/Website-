@@ -1,23 +1,26 @@
 import React from 'react';
 import { Analytics } from '@vercel/analytics/react';
-
-import Navbar from './components/Layout/Navbar';
-import Footer from './components/Layout/Footer';
+import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+import Founder from './pages/Founder';
+import Team from './pages/Team';
+import Navbar from './components/Layout/Navbar'; // Adjust if path is different
+import Footer from './components/Layout/Footer'; // Adjust if path is different
+
 
 function App() {
   return (
-    <div className="antialiased text-gray-900 bg-white">
+    <>
       <Navbar />
-      <main>
-        <Home />
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/founder" element={<Founder />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
       <Footer />
-
-      {/* Vercel Analytics */}
-      <Analytics />
-    </div>
+    </>
   );
 }
+
 
 export default App;

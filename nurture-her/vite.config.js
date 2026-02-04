@@ -5,5 +5,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    allowedHosts: [
+      'uncomprehensive-particia-overstraightly.ngrok-free.dev'
+    ]
+  },
   base: "/", 
 })
