@@ -12,31 +12,7 @@ import placeholder from '../assets/placeholder.png';
 
 // --- DATA ---
 const departments = [
-<<<<<<< HEAD
-  {
-    title: "The Founder",
-    members: [{ 
-      name: "Halima Muhammad", 
-      role: "Founder", 
-      image: imgHalima,
-      bio: "Visionary lead of Nurture Her. A public health professional dedicated to empowering teenage girls across Nigeria.", 
-      linkedin: "#" 
-    }]
-  },
-  {
-    title: "Social Media",
-    members: [{ 
-      name: "Zainab A Ahmed", 
-      role: "Program officer/ Social Media Manager", 
-      image: imgZainabA,
-      // Updated Full Bio
-      bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
-      linkedin: "#" 
-    }]
-  },
-=======
   
->>>>>>> 3a58b3632fb5a9cf2e9f83bffcf40277592615d0
   {
     title: "Graphic Design",
     members: [
