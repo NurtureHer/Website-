@@ -12,39 +12,12 @@ import placeholder from '../assets/placeholder.png';
 
 // --- DATA ---
 const departments = [
-  {
-    title: "The Founder",
-    members: [{ 
-      name: "Halima Muhammad", 
-      role: "Founder", 
-      image: imgHalima,
-      bio: "Visionary lead of Nurture Her. A public health professional dedicated to empowering teenage girls across Nigeria.", 
-      linkedin: "#" 
-    }]
-  },
-  {
-    title: "Graphic Design",
-    members: [
-      { name: "Amina Muhammad ", role: "Graphic Designer", image: placeholder, bio: "Crafting our visual identity.", linkedin: "#" },
-      { name: "Fauziyya Abdullahi Ahmed", role: "Graphic Designer", image: imgfauzie, bio: "Fauziyya Abdullahi Ahmed is a Computer Science professional specializing in Data Science and Machine Learning. She is passionate about leveraging technology and analytical frameworks to drive meaningful social innovation and community-focused initiatives. By combining technical precision with creative problem-solving, she helps design engaging, accessible resources for Nurture Her. Fauziyya is committed to using her expertise to create digital spaces that empower girls to build confidence, access new opportunities, and reach their full potential.", linkedin: "#" }
-    ]
-  },
-  {
-    title: "Social Media",
-    members: [{ 
-      name: "Zainab A Ahmed", 
-      role: "Program officer/ Social Media Manager", 
-      image: imgZainabA,
-      // Updated Full Bio
-      bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
-      linkedin: "#" 
-    }]
-  },
+  
   {
     title: "Program Planning",
     members: [
       { 
-        name: "Khadija Muhammad Abdu", 
+        name: "Dr. Khadija Muhammad Abdu", 
         role: "Program manager", 
         image: placeholder,
         // Updated Full Bio
@@ -60,31 +33,52 @@ const departments = [
         linkedin: "#" 
       },
       { 
-        name: "Zainab", 
-        role: "Planner", 
-        image: placeholder,
-        bio: "Structuring our initiatives and coordinating girl-centered programs.", 
-        linkedin: "#" 
-      }
+      name: "Zainab A Ahmed", 
+      role: "Program officer/ Social Media Manager", 
+      image: imgZainabA,
+      // Updated Full Bio
+      bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
+      linkedin: "#" 
+    }
     ]
   },
   {
-    title: "Content Developers (Health)",
+    title: "Health Team",
     members: [
       { 
-        name: "Abdurrahim Muhammad Abdu", 
+        name: "Dr. Abdurrahim Muhammad Abdu", 
         role: "Health content developer/ED", 
         image: imgabdul,
         // Updated Full Bio
         bio: "Abdurrahim Muhammad Abdu is a medical doctor who obtained his MBBS from Kharkiv National Medical University, Ukraine. He is currently pursuing a Master’s degree in Public Health at IMU University, Malaysia. His professional interests include health equity, health policy development, and community-based interventions. Beyond his academic pursuits, he enjoys working out, playing football, and reading.", 
         linkedin: "#" 
       },
-      { name: "Dr. Fatima", role: "Medical Specialist", image: placeholder, bio: "Expert health content developer.", linkedin: "#" },
-      { name: "Dr. Ihsan", role: "Medical Specialist", image: placeholder, bio: "Expert health content developer.", linkedin: "#" }
+      { name: "Dr. Fatima Usman Zarma", role: "Medical Specialist", image: placeholder, bio: "Expert health content developer.", linkedin: "#" },
+      { name: "Dr. Hannatu Ihsan Hassan", role: "Medical Specialist", image: placeholder, bio: "Expert health content developer.", linkedin: "#" }
     ]
   },
   {
-    title: "Advisory",
+    title: "Graphic Design",
+    members: [
+      { name: "Engr. Amina Muhammad Abdu", role: "Graphic Designer", image: placeholder, bio: "Crafting our visual identity.", linkedin: "#" },
+      { name: "Fauziyya Abdullahi Ahmed", role: "Graphic Designer", image: imgfauzie, bio: "Fauziyya Abdullahi Ahmed is a Computer Science professional specializing in Data Science and Machine Learning. She is passionate about leveraging technology and analytical frameworks to drive meaningful social innovation and community-focused initiatives. By combining technical precision with creative problem-solving, she helps design engaging, accessible resources for Nurture Her. Fauziyya is committed to using her expertise to create digital spaces that empower girls to build confidence, access new opportunities, and reach their full potential.", linkedin: "#" }
+    ]
+  },
+  {
+    title: "Social Media",
+    members: [{ 
+      name: "Zainab A Ahmed", 
+      role: "Program officer/ Social Media Manager", 
+      image: imgZainabA,
+      // Updated Full Bio
+      bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
+      linkedin: "#" 
+    }]
+  },
+  
+  ,
+  {
+    title: "Content Advisor",
     members: [{ 
       name: "Aaliyah Abdullahi Ahmed", 
       role: "Content Developer and Advisor", 
@@ -158,7 +152,7 @@ const Team = () => {
 
         {departments.map((dept, idx) => (
           <div key={idx} className="mb-20">
-            <h2 className="text-2xl font-serif text-brand-mauve mb-10 border-b border-brand-mauve/20 pb-2 inline-block uppercase tracking-wide">
+            <h2 className="text-2xl font-serif text-brand-mauve mb-10 border-b border-brand-mauve/20 pb-2 inline-block  tracking-wide">
               {dept.title}
             </h2>
             {/* Added 'items-stretch' to make cards equal height in a row */}
