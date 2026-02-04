@@ -36,7 +36,7 @@ const Founder = () => {
             <div className="md:col-span-8"> 
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed font-serif">
                 <p>
-                  Halima Muhammad is a public health professional with over eight years of experience working across Nigeria’s health system, supporting government institutions, non-governmental organizations, and community leaders to strengthen Primary Health Care, immunization, and health advocacy. She currently serves as a Senior Program Manager for Immunization, where she works closely with states, policymakers, and development partners to build political commitment and secure sustainable funding for health interventions.
+                  Halima Muhammad is a public health professional with over eight years of experience working across Nigeria’s health system, supporting government institutions, non-governmental organizations, and community leaders to strengthen Primary Health Care, immunization, and health advocacy. She currently works as a Senior Program Manager for Immunization, where she works closely with states, policymakers, and development partners to build political commitment and secure sustainable funding for health interventions.
                 </p>
                 <p>
                   Her academic and professional journey reflects a strong commitment to improving health outcomes for women and children. Halima holds a Bachelor’s degree in Biological Science (Microbiology) from the University of Leicester and a Master’s degree in Public Health from Sheffield Hallam University. Her postgraduate research focused on family planning in Northern Nigeria, examining the cultural, gender, and religious influences.
