@@ -26,28 +26,20 @@ const departments = [
       },
       { 
         name: "Maimuna Umaimah Gidado", 
-        role: "Program Planning Team", 
+        role: "Program officer", 
         image: placeholder,
         // Updated Full Bio
         bio: "Maimuna Umaimah Gidado is a young lawyer who is passionate about supporting girls and women through advocacy and community-focused work. As part of the Program Planning Team at NurtureHer, she helps design impactful programs aimed at empowering the girl child and promoting her overall wellbeing. Umaimah is driven by a genuine desire to create safe spaces where girls can learn, grow, and thrive.", 
         linkedin: "#" 
-      },
-      { 
-      name: "Zainab A Ahmed", 
-      role: "Program officer/ Social Media Manager", 
-      image: imgZainabA,
-      // Updated Full Bio
-      bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
-      linkedin: "#" 
-    }
+      }
     ]
   },
   {
-    title: "Health Team",
+    title: "Health",
     members: [
       { 
         name: "Dr. Abdurrahim Muhammad Abdu", 
-        role: "Health content developer/ED", 
+        role: "Health content developer", 
         image: imgabdul,
         // Updated Full Bio
         bio: "Abdurrahim Muhammad Abdu is a medical doctor who obtained his MBBS from Kharkiv National Medical University, Ukraine. He is currently pursuing a Master’s degree in Public Health at IMU University, Malaysia. His professional interests include health equity, health policy development, and community-based interventions. Beyond his academic pursuits, he enjoys working out, playing football, and reading.", 
@@ -68,7 +60,7 @@ const departments = [
     title: "Social Media",
     members: [{ 
       name: "Zainab A Ahmed", 
-      role: "Program officer/ Social Media Manager", 
+      role: " Social Media Manager/ Program Officer", 
       image: imgZainabA,
       // Updated Full Bio
       bio: "Zainab Ahmed is a global development and social impact advocate with a background in Business Administration and Early Childhood Education. She is passionate about creating sustainable social impact through innovative programs and community-based initiatives.", 
